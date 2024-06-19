@@ -1,0 +1,256 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Application Launch",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 19647361200,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and appilication \"https://www.redbus.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.redbus.in\"",
+                  "offset": 36
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.BusBooking5.launch_the_browser_and_appilication(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-19T20:35:49.694Z",
+        "line": 15,
+        "name": "Book a bus in RedBus application",
+        "description": "",
+        "id": "busbooking;book-a-bus-in-redbus-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1850469800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters the value in from place \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 36
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.BusBooking5.user_enters_the_value_in_from_place(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1780328700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the value in to place \"Vijayawada\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Vijayawada\"",
+                  "offset": 34
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.BusBooking5.user_enters_the_value_in_to_place(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 393966700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User selects a data  in the Date DropDown",
+            "match": {
+              "location": "in.redBus5.StepDefinition.BusBooking5.user_selects_a_data_in_the_Date_DropDown()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 485701100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on search button",
+            "match": {
+              "location": "in.redBus5.StepDefinition.BusBooking5.user_clicks_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8797336800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate the bus displayed in the UI",
+            "match": {
+              "location": "in.redBus5.StepDefinition.BusBooking5.validate_the_bus_displayed_in_the_UI()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "BusBooking",
+    "description": "",
+    "id": "busbooking",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/BusBooking5.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Application Launch",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25589537500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launch the browser and appilication1 \"https://www.redbus.in\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.redbus.in\"",
+                  "offset": 37
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.TrainBooking5.launch_the_browser_and_appilication1(java.lang.String)"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-06-19T20:36:22.866Z",
+        "line": 16,
+        "name": "Book a train in RedBus application",
+        "description": "",
+        "id": "trainbooking;book-a-train-in-redbus-application;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 26401314500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on rail",
+            "match": {
+              "location": "in.redBus5.StepDefinition.TrainBooking5.user_clicks_on_rail()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2514414500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the value in from place1 \"Chennai\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Chennai\"",
+                  "offset": 37
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.TrainBooking5.user_enters_the_value_in_from_place1(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7499834300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the value in to place1 \"Visakhapatnam\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Visakhapatnam\"",
+                  "offset": 35
+                }
+              ],
+              "location": "in.redBus5.StepDefinition.TrainBooking5.user_enters_the_value_in_to_place1(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4132505000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User selects a data  in the Date DropDown1",
+            "match": {
+              "location": "in.redBus5.StepDefinition.TrainBooking5.user_selects_a_data_in_the_Date_DropDown1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2004519100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on search button1",
+            "match": {
+              "location": "in.redBus5.StepDefinition.TrainBooking5.user_clicks_on_search_button1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3705756400,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Validate the bus displayed in the UI1",
+            "match": {
+              "location": "in.redBus5.StepDefinition.TrainBooking5.validate_the_bus_displayed_in_the_UI1()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TrainBooking",
+    "description": "",
+    "id": "trainbooking",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/FeatureFiles/TrainBooking5.feature",
+    "tags": []
+  }
+]
